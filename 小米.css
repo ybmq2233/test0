@@ -1,0 +1,300 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* 可复用样式开始 */
+.span4 {
+    float: left;
+    width: 234px;
+    height: 615px;
+    /* background-color: violet; */
+}
+
+.span16 {
+    float: left;
+    width: 992px;
+    height: 615px;
+    background-color: pink;
+    /* margin: 0 0 0 12px; */
+}
+
+.box-hd {
+    width: 1226px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 22px;
+    font-weight: 200;
+    color: #333;
+    margin: 0 auto;
+}
+
+.brick-img {
+    width: 160px;
+    height: 160px;
+    /* margin: 0 auto; */
+    padding: 0 auto;
+}
+
+.brick-poster {
+    width: 234px;
+    height: 300px;
+    background-color: pink;
+    margin-bottom: 15px;
+}
+
+.brick-poster:hover {
+
+}
+/* 可复用样式结束 */
+
+.topbar-banner-Wrapper {
+    /* background-image: url("images/advertising.jpg"); */
+    position: relative;
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: auto 120px;
+}
+
+.topbar-banner-Wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.head_nav1 {
+    width: 1900px;
+    height: 40px;
+    background-color: #333;
+}
+
+.head_nav1 .div1 {
+    margin-left: 337px;
+}
+
+.head_nav1 .div1 a {
+    color: rgb(176, 176, 176);
+    text-decoration: none;
+}
+
+.head_nav2 {
+    width: 1226px;
+    height: 100px;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+.box {
+    width: 1226px;
+    height: 460px;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+.box .left {
+    float: left;
+    width: 235px;
+    height: 460px;
+    background-color: rgb(69,67,69);
+}
+
+.box .left ul li a {
+    display: block;
+    width: 235px;
+    height: 42px;
+    font-size: 16px;
+    text-indent: 30px;
+    line-height: 42px;
+    color: rgb(207,206,207);
+    text-decoration: none;
+}
+
+.box .left ul div {
+    width: 235px;
+    height: 20px;
+}
+
+.box .left ul li a:hover {
+    background-color: rgb(255,103,0);
+}
+
+.box .right {
+    float: right;
+    width: 991px;
+    height: 460px;
+    background-color: green;
+}
+
+.recommend {
+    width: 1226px;
+    height: 170px;
+    background-color: pink;
+    margin: 14px auto 27px auto;
+}
+
+.page-main {
+    width: 1900px;
+    background-color: #f5f5f5;
+}
+
+.page-main .mi-seckill .content {
+    width: 1226px;
+    height: 340px;
+    background-color: pink;
+    margin: 0 auto 20px auto;
+}
+
+.page-main .mi-seckill .advertising {
+    width: 1226px;
+    height: 120px;
+    background-color: skyblue;
+    margin: 0 auto;
+}
+
+.page-main .phone .content {
+    width: 1226px;
+    height: 615px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+
+.page-main .phone .content .span16 ul li {
+    float: left;
+    width: 234px;
+    height: 300px;
+    background-color: skyblue;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+
+.page-main .phone .advertising {
+    width: 1226px;
+    height: 120px;
+    background-color: skyblue;
+    margin: 40px auto 0 auto;
+}
+
+.page-main .appliances .content {
+    width: 1226px;
+    height: 615px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+
+.page-main .appliances .content .span4 .poster1 {
+    width: 230px;
+    height: 300px;
+    background-color: pink;
+}
+
+.page-main .appliances .content .span4 .poster2 {
+    width: 230px;
+    height: 300px;
+    background-color: pink;
+    margin-top: 15px;
+}
+
+.page-main .appliances .advertising {
+    width: 1226px;
+    height: 120px;
+    background-color: skyblue;
+    margin: 40px auto 0 auto;
+}
+
+.page-main .intelligence .content {
+    width: 1226px;
+    height: 615px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+
+.page-main .intelligence .advertising {
+    width: 1226px;
+    height: 120px;
+    background-color: skyblue;
+    margin: 40px auto 0 auto;
+}
+
+.page-main .match .content {
+    width: 1226px;
+    height: 615px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+
+.page-main .match .advertising {
+    width: 1226px;
+    height: 120px;
+    background-color: skyblue;
+    margin: 40px auto 0 auto;
+}
+
+.page-main .accessories .content {
+    width: 1226px;
+    height: 615px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+
+.page-main .accessories .advertising {
+    width: 1226px;
+    height: 120px;
+    background-color: skyblue;
+    margin: 40px auto 0 auto;
+}
+
+.page-main .rim .content {
+    width: 1226px;
+    height: 615px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+
+.page-main .rim .advertising {
+    width: 1226px;
+    height: 120px;
+    background-color: skyblue;
+    margin: 40px auto 0 auto;
+}
+
+.page-main .videos .content {
+    width: 1226px;
+    height: 285px;
+    background-color: pink;
+    margin: 0 auto 30px auto;
+}
+
+.page-main .videos .content li {
+    float: left;
+    width: 296px;
+    height: 285px;
+    background-color: purple;
+    margin-right: 14px;
+}
+
+.page-main .videos .content .last {
+    margin-right: 0;
+}
+
+.after-sale {
+    width: 1900px;
+    height: 330px;
+    background-color: pink;
+}
+
+.cebian {
+    position: fixed;
+    top: 40px;
+    right: 0;
+    width: 84px;
+    height: 456px;
+    background-color: pink;
+    /* margin-top: 40px; */
+    /* margin-right: 0; */
+}
